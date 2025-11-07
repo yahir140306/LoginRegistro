@@ -13,3 +13,65 @@ nav {
   text-align: center;
   font-size: 25px;
 }
+
+form {
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  border-radius: 1em;
+
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input {
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    width: 200px;
+    font: 1em system-ui;
+  }
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttom {
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+
+  &:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+  }
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font: 600;
+}
+
+.tiene {
+  text-decoration: none;
+}
